@@ -20,11 +20,24 @@
     padding: 11px 24px;
 }
 
+.hamBrandContainer{
+    min-width: 360px;
+}
+
+.brandContainer{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
 .brand{
     max-width: 240px;
     height: auto;
     margin: 0px 12px;
     /* border: 2px  solid red; */
+}
+
+.smallBrand{
+    display: none;
 }
 
 .formTop, .formBottom{
@@ -77,12 +90,10 @@
     display: flex;
     gap: 16px;
     margin: 0px 12px;
-    /* border: 2px solid red; */
     align-items: center;
 }
 
 .navbarBottom{
-    min-height: 6px;
     background-color: #ffb600;
 }
 
@@ -96,6 +107,7 @@
 
     .navbarBottom{
         padding: 11px 24px;
+        /* border: 2px solid red; */
     }
 
     .formBottom{
@@ -105,7 +117,34 @@
 
     .searchImage{
         max-height: 22px;
+    }
+
+}
+
+@media screen and (max-width: 546px){
+    .navbarTop{
+        padding: 6px 10px;
+    }
+    .hamBrandContainer{
+        min-width: 140px;
+    }
+
+    .brand{
+        display: none;
+    }
+
+    .navbarBottom{
+        padding: 4px 0px;
         /* border: 2px solid red; */
     }
 
+
+    .smallBrand{
+        display:block;
+    }
+
+    .buttonsContainer{
+        gap: 12px;
+        margin: 0px 12px;
+    }
 }
