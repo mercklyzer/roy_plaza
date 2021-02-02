@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbarTop, .navbarBottom{
+    display: flex;
+    background-color: #ffcf3d;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarTop{
+    padding: 11px 24px;
+}
+
+.brand{
+    max-width: 240px;
+    height: auto;
+    margin: 0px 12px;
+    /* border: 2px  solid red; */
+}
+
+.formTop, .formBottom{
+    display: flex;
+    flex-direction:row;
+    border-radius: 8px;
+    background-color: white;
+    padding: 0px 4px 0px 10px;
+    height: 50px;
+    width: 800px;
+    margin: 0px 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.cancel{
+    cursor: pointer;
+    margin: 0px 6px;
+    font-weight: 700;
+    color: #090088;
+    font-size: 20px;
+}
+
+.searchButton{
+    border: none;
+    background-color: transparent;
+    outline:none;
+    margin: 0px 6px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.searchImage{
+    max-height: 30px;
+    width: auto;
+}
+
+.buttonsContainer{
+    display: flex;
+    gap: 16px;
+    margin: 0px 12px;
+    /* border: 2px solid red; */
+    align-items: center;
+}
+
+.navbarBottom{
+    min-height: 6px;
+    background-color: #ffb600;
+}
+
+.formBottom{
+    display: none;
+}
+@media screen and (max-width: 860px){
+    .formTop{
+        display: none;
+    }
+
+    .navbarBottom{
+        padding: 11px 24px;
+    }
+
+    .formBottom{
+        display:flex;
+        max-width: 800px;
+    }
+
+    .searchImage{
+        max-height: 22px;
+        /* border: 2px solid red; */
+    }
+
+}

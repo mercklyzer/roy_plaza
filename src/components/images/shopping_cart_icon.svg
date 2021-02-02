@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39.125" height="39.125" viewBox="0 0 39.125 39.125">
+  <defs>
+    <filter id="cart_icon_background" x="0" y="0" width="39.125" height="39.125" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="shopping_cart_icon" transform="translate(-11.5 -13.629)">
+    <g transform="matrix(1, 0, 0, 1, 11.5, 13.63)" filter="url(#cart_icon_background)">
+      <circle id="cart_icon_background-2" data-name="cart_icon_background" cx="18.062" cy="18.062" r="18.062" transform="translate(0.5 0.5)" fill="#0000ad"/>
+    </g>
+    <g id="cart" transform="translate(-1033.609 -43.23)">
+      <path id="Path_36" data-name="Path 36" d="M1074.262,52.72v7.6a4.724,4.724,0,0,0,4.724,4.724h8.069a7.566,7.566,0,0,0,7.566-7.566V50.963a1.178,1.178,0,0,0-1.178-1.178H1077.2A2.934,2.934,0,0,0,1074.262,52.72Zm2.748,0a.186.186,0,0,1,.186-.186h14.676v4.945a4.822,4.822,0,0,1-4.817,4.817h-8.069a1.977,1.977,0,0,1-1.976-1.975Z" transform="translate(-20 17)" fill="#fff"/>
+      <path id="Path_37" data-name="Path 37" d="M1078.037,50.005l-4.91-.887a1.74,1.74,0,0,0-2.021,1.4h0a1.739,1.739,0,0,0,1.4,2.02l4,.723Z" transform="translate(-20 17)" fill="#fff"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="1.829" cy="1.829" r="1.829" transform="translate(1068.733 83.096)" fill="#fff"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="1.829" cy="1.829" r="1.829" transform="translate(1055.323 83.096)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
