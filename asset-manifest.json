@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/roy_plaza/static/css/main.9791e794.chunk.css",
+    "main.css": "/roy_plaza/static/css/main.e03ff111.chunk.css",
     "main.js": "/roy_plaza/static/js/main.1ed57884.chunk.js",
     "main.js.map": "/roy_plaza/static/js/main.1ed57884.chunk.js.map",
     "runtime-main.js": "/roy_plaza/static/js/runtime-main.14852d2f.js",
@@ -10,7 +10,7 @@
     "static/js/3.8a2dea6a.chunk.js": "/roy_plaza/static/js/3.8a2dea6a.chunk.js",
     "static/js/3.8a2dea6a.chunk.js.map": "/roy_plaza/static/js/3.8a2dea6a.chunk.js.map",
     "index.html": "/roy_plaza/index.html",
-    "static/css/main.9791e794.chunk.css.map": "/roy_plaza/static/css/main.9791e794.chunk.css.map",
+    "static/css/main.e03ff111.chunk.css.map": "/roy_plaza/static/css/main.e03ff111.chunk.css.map",
     "static/js/2.58287909.chunk.js.LICENSE.txt": "/roy_plaza/static/js/2.58287909.chunk.js.LICENSE.txt",
     "static/media/bell_icon.d3a5b27d.svg": "/roy_plaza/static/media/bell_icon.d3a5b27d.svg",
     "static/media/facebook_link_white.b3eca1d4.svg": "/roy_plaza/static/media/facebook_link_white.b3eca1d4.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.14852d2f.js",
     "static/js/2.58287909.chunk.js",
-    "static/css/main.9791e794.chunk.css",
+    "static/css/main.e03ff111.chunk.css",
     "static/js/main.1ed57884.chunk.js"
   ]
 }
