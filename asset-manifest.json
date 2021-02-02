@@ -1,27 +1,35 @@
 {
   "files": {
-    "main.css": "/roy_plaza/static/css/main.fed4a77d.chunk.css",
-    "main.js": "/roy_plaza/static/js/main.39809a77.chunk.js",
-    "main.js.map": "/roy_plaza/static/js/main.39809a77.chunk.js.map",
-    "runtime-main.js": "/roy_plaza/static/js/runtime-main.08860f64.js",
-    "runtime-main.js.map": "/roy_plaza/static/js/runtime-main.08860f64.js.map",
-    "static/js/2.9746578d.chunk.js": "/roy_plaza/static/js/2.9746578d.chunk.js",
-    "static/js/2.9746578d.chunk.js.map": "/roy_plaza/static/js/2.9746578d.chunk.js.map",
-    "static/js/3.1024a579.chunk.js": "/roy_plaza/static/js/3.1024a579.chunk.js",
-    "static/js/3.1024a579.chunk.js.map": "/roy_plaza/static/js/3.1024a579.chunk.js.map",
+    "main.css": "/roy_plaza/static/css/main.9791e794.chunk.css",
+    "main.js": "/roy_plaza/static/js/main.1ed57884.chunk.js",
+    "main.js.map": "/roy_plaza/static/js/main.1ed57884.chunk.js.map",
+    "runtime-main.js": "/roy_plaza/static/js/runtime-main.14852d2f.js",
+    "runtime-main.js.map": "/roy_plaza/static/js/runtime-main.14852d2f.js.map",
+    "static/js/2.58287909.chunk.js": "/roy_plaza/static/js/2.58287909.chunk.js",
+    "static/js/2.58287909.chunk.js.map": "/roy_plaza/static/js/2.58287909.chunk.js.map",
+    "static/js/3.8a2dea6a.chunk.js": "/roy_plaza/static/js/3.8a2dea6a.chunk.js",
+    "static/js/3.8a2dea6a.chunk.js.map": "/roy_plaza/static/js/3.8a2dea6a.chunk.js.map",
     "index.html": "/roy_plaza/index.html",
-    "static/css/main.fed4a77d.chunk.css.map": "/roy_plaza/static/css/main.fed4a77d.chunk.css.map",
-    "static/js/2.9746578d.chunk.js.LICENSE.txt": "/roy_plaza/static/js/2.9746578d.chunk.js.LICENSE.txt",
+    "static/css/main.9791e794.chunk.css.map": "/roy_plaza/static/css/main.9791e794.chunk.css.map",
+    "static/js/2.58287909.chunk.js.LICENSE.txt": "/roy_plaza/static/js/2.58287909.chunk.js.LICENSE.txt",
     "static/media/bell_icon.d3a5b27d.svg": "/roy_plaza/static/media/bell_icon.d3a5b27d.svg",
+    "static/media/facebook_link_white.b3eca1d4.svg": "/roy_plaza/static/media/facebook_link_white.b3eca1d4.svg",
+    "static/media/instagram_link_white.b52127f6.svg": "/roy_plaza/static/media/instagram_link_white.b52127f6.svg",
+    "static/media/roy-plaza-store-bakebites-bakeshop-white.c997e051.svg": "/roy_plaza/static/media/roy-plaza-store-bakebites-bakeshop-white.c997e051.svg",
+    "static/media/roy-plaza-store-powered-by.df49a82d.svg": "/roy_plaza/static/media/roy-plaza-store-powered-by.df49a82d.svg",
+    "static/media/roy-plaza-store-roy-plaza-logo.1c4b7551.svg": "/roy_plaza/static/media/roy-plaza-store-roy-plaza-logo.1c4b7551.svg",
+    "static/media/roy-plaza-store-roys-bistro-white-logo.9448b08b.svg": "/roy_plaza/static/media/roy-plaza-store-roys-bistro-white-logo.9448b08b.svg",
     "static/media/roy_plaza_store_online_logo.e3b99288.svg": "/roy_plaza/static/media/roy_plaza_store_online_logo.e3b99288.svg",
     "static/media/search_button.7947632d.svg": "/roy_plaza/static/media/search_button.7947632d.svg",
     "static/media/shopping_cart_icon.0e89f865.svg": "/roy_plaza/static/media/shopping_cart_icon.0e89f865.svg",
-    "static/media/user_profile_icon.73203fe6.svg": "/roy_plaza/static/media/user_profile_icon.73203fe6.svg"
+    "static/media/tiktok_link_white.56bdffed.svg": "/roy_plaza/static/media/tiktok_link_white.56bdffed.svg",
+    "static/media/user_profile_icon.73203fe6.svg": "/roy_plaza/static/media/user_profile_icon.73203fe6.svg",
+    "static/media/youtube_link_white.1381aa4f.svg": "/roy_plaza/static/media/youtube_link_white.1381aa4f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.08860f64.js",
-    "static/js/2.9746578d.chunk.js",
-    "static/css/main.fed4a77d.chunk.css",
-    "static/js/main.39809a77.chunk.js"
+    "static/js/runtime-main.14852d2f.js",
+    "static/js/2.58287909.chunk.js",
+    "static/css/main.9791e794.chunk.css",
+    "static/js/main.1ed57884.chunk.js"
   ]
 }
