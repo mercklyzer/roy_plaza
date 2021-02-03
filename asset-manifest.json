@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/roy_plaza/static/css/main.1b8575ba.chunk.css",
-    "main.js": "/roy_plaza/static/js/main.994a9938.chunk.js",
-    "main.js.map": "/roy_plaza/static/js/main.994a9938.chunk.js.map",
-    "runtime-main.js": "/roy_plaza/static/js/runtime-main.c837b58d.js",
-    "runtime-main.js.map": "/roy_plaza/static/js/runtime-main.c837b58d.js.map",
-    "static/js/2.58287909.chunk.js": "/roy_plaza/static/js/2.58287909.chunk.js",
-    "static/js/2.58287909.chunk.js.map": "/roy_plaza/static/js/2.58287909.chunk.js.map",
-    "static/js/3.4a4ffc23.chunk.js": "/roy_plaza/static/js/3.4a4ffc23.chunk.js",
-    "static/js/3.4a4ffc23.chunk.js.map": "/roy_plaza/static/js/3.4a4ffc23.chunk.js.map",
+    "main.css": "/roy_plaza/static/css/main.9e6a8e71.chunk.css",
+    "main.js": "/roy_plaza/static/js/main.3e49f083.chunk.js",
+    "main.js.map": "/roy_plaza/static/js/main.3e49f083.chunk.js.map",
+    "runtime-main.js": "/roy_plaza/static/js/runtime-main.875faa93.js",
+    "runtime-main.js.map": "/roy_plaza/static/js/runtime-main.875faa93.js.map",
+    "static/js/2.459be621.chunk.js": "/roy_plaza/static/js/2.459be621.chunk.js",
+    "static/js/2.459be621.chunk.js.map": "/roy_plaza/static/js/2.459be621.chunk.js.map",
+    "static/js/3.af9aa699.chunk.js": "/roy_plaza/static/js/3.af9aa699.chunk.js",
+    "static/js/3.af9aa699.chunk.js.map": "/roy_plaza/static/js/3.af9aa699.chunk.js.map",
     "index.html": "/roy_plaza/index.html",
-    "static/css/main.1b8575ba.chunk.css.map": "/roy_plaza/static/css/main.1b8575ba.chunk.css.map",
-    "static/js/2.58287909.chunk.js.LICENSE.txt": "/roy_plaza/static/js/2.58287909.chunk.js.LICENSE.txt",
+    "static/css/main.9e6a8e71.chunk.css.map": "/roy_plaza/static/css/main.9e6a8e71.chunk.css.map",
+    "static/js/2.459be621.chunk.js.LICENSE.txt": "/roy_plaza/static/js/2.459be621.chunk.js.LICENSE.txt",
     "static/media/bell_icon.d3a5b27d.svg": "/roy_plaza/static/media/bell_icon.d3a5b27d.svg",
     "static/media/facebook_link_white.b3eca1d4.svg": "/roy_plaza/static/media/facebook_link_white.b3eca1d4.svg",
     "static/media/instagram_link_white.b52127f6.svg": "/roy_plaza/static/media/instagram_link_white.b52127f6.svg",
@@ -27,9 +27,9 @@
     "static/media/youtube_link_white.1381aa4f.svg": "/roy_plaza/static/media/youtube_link_white.1381aa4f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c837b58d.js",
-    "static/js/2.58287909.chunk.js",
-    "static/css/main.1b8575ba.chunk.css",
-    "static/js/main.994a9938.chunk.js"
+    "static/js/runtime-main.875faa93.js",
+    "static/js/2.459be621.chunk.js",
+    "static/css/main.9e6a8e71.chunk.css",
+    "static/js/main.3e49f083.chunk.js"
   ]
 }
