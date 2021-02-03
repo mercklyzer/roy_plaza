@@ -9,6 +9,7 @@ let cookingIngredients= [
     'PASTA & GRAINS',
     'SAUCES',
     'SPICES & HERBS',
+    'SPREADS',
  ]
 
 let bakingIngredients= [
@@ -92,7 +93,10 @@ let spicesAndHerbs=[
     'PEPPER',
     'SALT',
     'SEASONINGS',
-    'SPREADS',
+    
+]
+
+let spreads = [
     'BUTTER',
     'CHEESE',
     'FRUIT PRESERVE',
@@ -102,8 +106,6 @@ let spicesAndHerbs=[
     'PEANUT BUTTER',
     'SANDWICH SPREAD',
 ]
-
-let cookingIngredientsPtr = [bakingIngredients, cannedFoods, condiments, pastaAndGrains, sauces, spicesAndHerbs]
 
 class CookingIngredients extends Component {
     constructor(props) {
@@ -157,6 +159,12 @@ class CookingIngredients extends Component {
                         })                        
                     }
 
+                    else if(element === 'SPREADS'){
+                        innerItems = spreads.map((element) => {
+                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                        })                        
+                    }
+
                     return (
                     <React.Fragment key={element}>
                         <li>
@@ -167,9 +175,6 @@ class CookingIngredients extends Component {
                         </li>
                     </React.Fragment>)
                 })}
-
-                {/* <li><span className={styles.span}>BAKING </span>
-                </li> */}
             </>
         )
     }

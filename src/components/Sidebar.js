@@ -3,6 +3,10 @@ import styles from './sidebar.module.css'
 import Beverages from './Beverages'
 import CookingIngredients from './CookingIngredients'
 import SidebarPanel from './SidebarPanel'
+import HomeCare from './HomeCare'
+import PersonalCare from './PersonalCare'
+import ReadyToEat from './ReadyToEat'
+import WetMarket from './WetMarket'
 
 export class Sidebar extends Component {
     constructor(props) {
@@ -98,20 +102,27 @@ export class Sidebar extends Component {
 
                         <li><span className={styles.span} onClick={this.clickHandler}>HOME CARE</span>
                             <ul className={`${styles.ul} none`}>
-                                <li><span className={styles.span}>F1</span>
-                                    <ul className={`${styles.ul} none`}>
-                                        <li><span className={styles.span}>F1A</span></li>
-                                        <li><span className={styles.span}>F1B</span></li>
-                                    </ul>
-                                </li>
-                                <li><span className={styles.span}>F2</span>
-                                    <ul className={`${styles.ul} none`}>
-                                        <li><span className={styles.span}>F2A</span></li>
-                                        <li><span className={styles.span}>F2B</span></li>
-                                    </ul>
-                                </li>
+                                <HomeCare clickHandler={this.clickHandler}/>
                             </ul>
-                        </li>                       
+                        </li>
+
+                        <li><span className={styles.span} onClick={this.clickHandler}>PERSONAL CARE</span>
+                            <ul className={`${styles.ul} none`}>
+                                <PersonalCare clickHandler={this.clickHandler}/>
+                            </ul>
+                        </li>     
+
+                        <li><span className={styles.span} onClick={this.clickHandler}>READY TO EAT</span>
+                            <ul className={`${styles.ul} none`}>
+                                <ReadyToEat clickHandler={this.clickHandler}/>
+                            </ul>
+                        </li>   
+
+                        <li><span className={styles.span} onClick={this.clickHandler}>WET MARKET</span>
+                            <ul className={`${styles.ul} none`}>
+                                <WetMarket clickHandler={this.clickHandler}/>
+                            </ul>
+                        </li>      
                     </ul>
                 </div>
             </div>

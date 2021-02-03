@@ -9,7 +9,7 @@ function App() {
     height: '500px',
     marginTop: '119px',
     border: '2px solid blue',
-    fontSize: '100px'
+    fontSize: '60px'
   }
 
   return (
