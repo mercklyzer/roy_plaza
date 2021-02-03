@@ -7,6 +7,7 @@ import bell from './images/bell_icon.svg'
 import user from './images/user_profile_icon.svg'
 import styles from './navbar.module.css'
 import './hamburger.css'
+import Sidebar from './Sidebar'
 
 class Navbar extends Component {
     constructor(props) {
@@ -14,7 +15,8 @@ class Navbar extends Component {
     
         this.state = {
              searchBody : '',
-             toggle: ''
+             toggle: '',
+             show: false,
         }
         this.searchInputTop = React.createRef()
         this.searchInputBottom = React.createRef()
@@ -34,10 +36,12 @@ class Navbar extends Component {
 
     hamburgerToggle(e){
         let value = this.state.toggle === ''? 'open' : ''
+        let showValue = value === 'open'? true : false
 
         this.setState({
-            toggle: value
-        })
+            toggle: value,
+            show: showValue
+        }, () => console.log(this.state.show))
     }
 
 
@@ -50,7 +54,7 @@ class Navbar extends Component {
 
     render() {
         return (
-            <div className={styles.Navbar}>
+            <div className={styles.navbar}>
 
 
                 <div className={styles.navbarTop}>
@@ -88,6 +92,9 @@ class Navbar extends Component {
                         <button className={styles.searchButton}><img src={search} className={styles.searchImage} /></button>
                     </form>
                 </div>
+
+                {/* SIDEBAR IS CODED - MOBILE FIRST from 320px width */}
+                <Sidebar key={this.state.show} show={this.state.show}/>
             </div>
         )
     }

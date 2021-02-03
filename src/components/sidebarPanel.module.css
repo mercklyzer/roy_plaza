@@ -1,0 +1,25 @@
+.panel{
+    background-color: #ffb600;
+    padding: 16px;
+    max-width:  200px;
+    height: 100%;
+    overflow: scroll;
+}
+
+.title{
+    font-size: 24px;
+    text-align: left;
+}
+
+.itemContainer{
+    margin: 16px 0px;
+}
+.item{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 6px 0px;
+    margin: 2px 0px;
+    /* border: 2px solid red; */
+    text-align: left;
+}

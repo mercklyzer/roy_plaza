@@ -1,0 +1,44 @@
+.background{
+    background-color: rgb(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    /* top: 119px; */
+    height: calc(100% - 119px);
+    z-index: 200;
+}
+
+.panel{
+    background-color: #ffb600;
+    padding: 16px;
+    max-width:  200px;
+    height: 100%;
+    overflow: scroll;
+}
+
+.ul{
+    list-style: none;
+}
+
+.ul > li{
+    margin-bottom: 20px; 
+    width: 100%;
+}
+
+.span{
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width:546px){
+    .background{
+        top: 138px;
+    }
+}
+
+@media screen and (min-width:860px){
+    .background{
+        top: 72px;
+    }
+}
