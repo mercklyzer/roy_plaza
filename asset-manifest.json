@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/roy_plaza/static/css/main.9e6a8e71.chunk.css",
-    "main.js": "/roy_plaza/static/js/main.3e49f083.chunk.js",
-    "main.js.map": "/roy_plaza/static/js/main.3e49f083.chunk.js.map",
+    "main.js": "/roy_plaza/static/js/main.83fea9cc.chunk.js",
+    "main.js.map": "/roy_plaza/static/js/main.83fea9cc.chunk.js.map",
     "runtime-main.js": "/roy_plaza/static/js/runtime-main.875faa93.js",
     "runtime-main.js.map": "/roy_plaza/static/js/runtime-main.875faa93.js.map",
-    "static/js/2.459be621.chunk.js": "/roy_plaza/static/js/2.459be621.chunk.js",
-    "static/js/2.459be621.chunk.js.map": "/roy_plaza/static/js/2.459be621.chunk.js.map",
+    "static/js/2.6697879f.chunk.js": "/roy_plaza/static/js/2.6697879f.chunk.js",
+    "static/js/2.6697879f.chunk.js.map": "/roy_plaza/static/js/2.6697879f.chunk.js.map",
     "static/js/3.af9aa699.chunk.js": "/roy_plaza/static/js/3.af9aa699.chunk.js",
     "static/js/3.af9aa699.chunk.js.map": "/roy_plaza/static/js/3.af9aa699.chunk.js.map",
     "index.html": "/roy_plaza/index.html",
     "static/css/main.9e6a8e71.chunk.css.map": "/roy_plaza/static/css/main.9e6a8e71.chunk.css.map",
-    "static/js/2.459be621.chunk.js.LICENSE.txt": "/roy_plaza/static/js/2.459be621.chunk.js.LICENSE.txt",
+    "static/js/2.6697879f.chunk.js.LICENSE.txt": "/roy_plaza/static/js/2.6697879f.chunk.js.LICENSE.txt",
     "static/media/bell_icon.d3a5b27d.svg": "/roy_plaza/static/media/bell_icon.d3a5b27d.svg",
     "static/media/facebook_link_white.b3eca1d4.svg": "/roy_plaza/static/media/facebook_link_white.b3eca1d4.svg",
     "static/media/instagram_link_white.b52127f6.svg": "/roy_plaza/static/media/instagram_link_white.b52127f6.svg",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.875faa93.js",
-    "static/js/2.459be621.chunk.js",
+    "static/js/2.6697879f.chunk.js",
     "static/css/main.9e6a8e71.chunk.css",
-    "static/js/main.3e49f083.chunk.js"
+    "static/js/main.83fea9cc.chunk.js"
   ]
 }
