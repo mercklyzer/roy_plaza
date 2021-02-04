@@ -1,0 +1,30 @@
+.sidebarBackground{
+    background-color: rgb(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    height: calc(100% - 119px);
+    z-index: 200;
+    opacity: 0;
+    transition: 0.3s opacity;
+}
+
+.sidebarBackground.show{
+    opacity: 1;
+    transition: 0.3s opacity;
+}
+
+.sidebarPanel{
+    background-color: #ffb600;
+    padding: 16px;
+    max-width:  200px;
+    height: 100%;
+    overflow: scroll;
+    position:  fixed;
+    left: -100%;
+    transition: all 0.3s;
+}
+
+.sidebarPanel.show{
+    left: 0;
+    transition: all 0.3s;
+}

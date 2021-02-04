@@ -8,40 +8,14 @@ import PersonalCare from './PersonalCare'
 import ReadyToEat from './ReadyToEat'
 import WetMarket from './WetMarket'
 
-export class Sidebar extends Component {
+import './sidebarAnimation.css'
+
+class Sidebar extends Component {
     constructor(props) {
         super(props)
     
         this.state = {
              show: this.props.show,
-             beverages: ['ALCOHOLIC',
-             'BOTTLED WATER',
-             'CHOCOLATE',
-             'COFFEE',
-             'CREAMER',
-             'ENERGY DRINKS',
-             'HERBAL DRINKS',
-             'JUICE',
-             'JUICE (POWDER)',
-             'MILK (ADULT)',
-             'MILK (INFANT)',
-             'MILK (NURSING MOM)',
-             'MILK (REGULAR)',
-             'RTD (CHOCO)',
-             'RTD (MILK)',
-             'SOFTDRINK',
-             'TEA',
-             'WINES',
-             ],
-
-             cookingIngredients: [
-                'BAKING INGREDIENTS',
-                'CANNED FOODS',
-                'CONDIMENTS',
-                'PASTA & GRAINS',
-                'SAUCES',
-                'SPICES & HERBS',
-             ]
         }
     }
 
@@ -68,26 +42,37 @@ export class Sidebar extends Component {
         e.currentTarget.classList.add('none')
     }
 
-
-    render() {
+    componentDidMount(){
         let body = document.getElementsByTagName('body')[0]
         let html = document.getElementsByTagName('html')[0]
 
-        if(!this.state.show){
-            body.style.overflow = 'visible';
-            html.style.overflow = 'visible';
-            return  <></>
-        }    
-        
-        body.style.overflow = 'hidden';
-        html.style.overflow = 'hidden';
+        if(this.state.show){
+            body.style.overflow = 'hidden';
+            html.style.overflow = 'hidden';
+            setTimeout(() => {
+                document.getElementById('sidebarBackground').classList.add('show')
+                document.getElementById('sidebarPanel').classList.add('show')
+            }, 1)
+        }
+        else{
+            setTimeout(() => {
+                document.getElementById('sidebarBackground').classList.remove('show')
+                document.getElementById('sidebarPanel').classList.remove('show')
+                body.style.overflow = 'visible';
+                html.style.overflow = 'visible';
+            },1)
+        }
+    }
 
-        let beverages = this.state.beverages
-        let cookingIngredients = this.state.cookingIngredients
+    render() {
+        let show = 'show'
+        if(this.state.show){
+            show = ''
+        }
 
         return (
-            <div className={styles.background}>
-                <div className={styles.panel}>
+            <div className={`sidebarBackground ${show}`} id="sidebarBackground">
+                <div className={`sidebarPanel ${show}`} id='sidebarPanel'>
                     <ul className={styles.ul}>
                         <li><span className={styles.span} onClick={this.clickHandler}>BEVERAGES</span>
                             <ul className={`${styles.ul} none`}>

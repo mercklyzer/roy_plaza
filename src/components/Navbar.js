@@ -41,7 +41,7 @@ class Navbar extends Component {
         this.setState({
             toggle: value,
             show: showValue
-        }, () => console.log(this.state.show))
+        })
     }
 
 
@@ -55,8 +55,6 @@ class Navbar extends Component {
     render() {
         return (
             <div className={styles.navbar}>
-
-
                 <div className={styles.navbarTop}>
                     <div className={styles.hamBrandContainer}>
                         <div id="nav-icon3" className={this.state.toggle} onClick={this.hamburgerToggle}>
