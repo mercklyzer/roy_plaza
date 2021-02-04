@@ -17,6 +17,7 @@ class Navbar extends Component {
              searchBody : '',
              toggle: '',
              show: false,
+             firstSidebar: true
         }
         this.searchInputTop = React.createRef()
         this.searchInputBottom = React.createRef()
@@ -40,7 +41,8 @@ class Navbar extends Component {
 
         this.setState({
             toggle: value,
-            show: showValue
+            show: showValue,
+            firstSidebar: false
         })
     }
 
@@ -92,7 +94,7 @@ class Navbar extends Component {
                 </div>
 
                 {/* SIDEBAR IS CODED - MOBILE FIRST from 320px width */}
-                <Sidebar key={this.state.show} show={this.state.show}/>
+                <Sidebar key={this.state.show} show={this.state.show} firstSidebar={this.state.firstSidebar}/>
             </div>
         )
     }

@@ -16,6 +16,7 @@ class Sidebar extends Component {
     
         this.state = {
              show: this.props.show,
+             first: this.props.firstSidebar
         }
     }
 
@@ -54,6 +55,9 @@ class Sidebar extends Component {
                 document.getElementById('sidebarPanel').classList.add('show')
             }, 1)
         }
+        else if(this.state.first){
+            return
+        }
         else{
             setTimeout(() => {
                 document.getElementById('sidebarBackground').classList.remove('show')
@@ -65,10 +69,7 @@ class Sidebar extends Component {
     }
 
     render() {
-        let show = 'show'
-        if(this.state.show){
-            show = ''
-        }
+        let show = (this.state.first || this.state.show)? '':'show'
 
         return (
             <div className={`sidebarBackground ${show}`} id="sidebarBackground">
