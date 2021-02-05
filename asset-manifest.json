@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/roy_plaza/static/css/main.d7be09a5.chunk.css",
-    "main.js": "/roy_plaza/static/js/main.9e3bdf0c.chunk.js",
-    "main.js.map": "/roy_plaza/static/js/main.9e3bdf0c.chunk.js.map",
+    "main.js": "/roy_plaza/static/js/main.d54ca949.chunk.js",
+    "main.js.map": "/roy_plaza/static/js/main.d54ca949.chunk.js.map",
     "runtime-main.js": "/roy_plaza/static/js/runtime-main.875faa93.js",
     "runtime-main.js.map": "/roy_plaza/static/js/runtime-main.875faa93.js.map",
     "static/js/2.55e194b1.chunk.js": "/roy_plaza/static/js/2.55e194b1.chunk.js",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.875faa93.js",
     "static/js/2.55e194b1.chunk.js",
     "static/css/main.d7be09a5.chunk.css",
-    "static/js/main.9e3bdf0c.chunk.js"
+    "static/js/main.d54ca949.chunk.js"
   ]
 }
