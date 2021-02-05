@@ -123,13 +123,20 @@ class HomeCare extends Component {
                     <React.Fragment key={element}>
                         <li onMouseOver={this.hoverHandlerCaller} onMouseOut={this.hoverRemoveHandlerCaller}>
                             <span className={styles.span} onClick={this.clickHandlerCaller}>{element}</span>
-                            {openDiv}
+                            {window.innerWidth >= 1024? 
+                                <div className='sidebarPanel3'>
+                                    <ul className={`${styles.ul} none`}>
+                                        {innerItems}
+                                    </ul>
+                                </div>
+                                :
                                 <ul className={`${styles.ul} none`}>
-                                    {innerItems}
-                                </ul>
-                            {closeDiv}
+                                        {innerItems}
+                                    </ul>
+                            }
                         </li>
                     </React.Fragment>)
+                    
                 })}
             </>
         )

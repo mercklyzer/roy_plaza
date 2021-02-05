@@ -57,8 +57,6 @@ class WetMarket extends Component {
 
     render() {
         let innerItems = ''
-        let openDiv = (window.innerWidth >= 1024)? `<div className='sidebarPanel3'>` : ''
-        let closeDiv =  (window.innerWidth >= 1024)?` </div>` : ''
 
         return (
             <>
@@ -85,11 +83,17 @@ class WetMarket extends Component {
                     <React.Fragment key={element}>
                         <li onMouseOver={this.hoverHandlerCaller} onMouseOut={this.hoverRemoveHandlerCaller}>
                             <span className={styles.span} onClick={this.clickHandlerCaller}>{element}</span>
-                            {openDiv}
+                            {window.innerWidth >= 1024? 
+                                <div className='sidebarPanel3'>
+                                    <ul className={`${styles.ul} none`}>
+                                        {innerItems}
+                                    </ul>
+                                </div>
+                                :
                                 <ul className={`${styles.ul} none`}>
-                                    {innerItems}
-                                </ul>
-                            {closeDiv}
+                                        {innerItems}
+                                    </ul>
+                            }
                         </li>
                     </React.Fragment>)
                 })}
