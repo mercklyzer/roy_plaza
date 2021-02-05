@@ -7,7 +7,7 @@ function App() {
   const divStyle = {
     color: 'black',
     height: '500px',
-    marginTop: '119px',
+    marginTop: '72px',
     border: '2px solid blue',
     fontSize: '60px'
   }

@@ -1,11 +1,3 @@
-.panel{
-    background-color: #ffb600;
-    padding: 16px;
-    max-width:  200px;
-    height: 100%;
-    overflow: scroll;
-}
-
 .title{
     font-size: 24px;
     text-align: left;

@@ -39,12 +39,26 @@ class WetMarket extends Component {
     }
 
     clickHandlerCaller = (e) => {
+        if(window.innerWidth >= 1024)    return
         this.props.clickHandler(e)
         console.log("clicked")
     }
 
+    hoverHandlerCaller = (e) => {
+        if(window.innerWidth < 1024)    return
+        this.props.hoverHandler(e)
+        console.log("hover")
+    }
+    hoverRemoveHandlerCaller = (e) => {
+        if(window.innerWidth < 1024)    return
+        this.props.hoverRemoveHandler(e)
+        console.log("hover")
+    }
+
     render() {
         let innerItems = ''
+        let openDiv = (window.innerWidth >= 1024)? `<div className='sidebarPanel3'>` : ''
+        let closeDiv =  (window.innerWidth >= 1024)?` </div>` : ''
 
         return (
             <>
@@ -69,11 +83,13 @@ class WetMarket extends Component {
  
                     return (
                     <React.Fragment key={element}>
-                        <li>
+                        <li onMouseOver={this.hoverHandlerCaller} onMouseOut={this.hoverRemoveHandlerCaller}>
                             <span className={styles.span} onClick={this.clickHandlerCaller}>{element}</span>
-                            <ul className={`${styles.ul} none`}>
-                                {innerItems}
-                            </ul>
+                            {openDiv}
+                                <ul className={`${styles.ul} none`}>
+                                    {innerItems}
+                                </ul>
+                            {closeDiv}
                         </li>
                     </React.Fragment>)
                 })}

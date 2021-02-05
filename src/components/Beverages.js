@@ -32,6 +32,10 @@ class Beverages extends Component {
     clickHandlerCaller = (e) => {
         this.props.clickHandler(e)
     }
+
+    hoverHandlerCaller = (e) => {
+        this.props.hoverHandler(e)
+    }
     
     render() {
         let beverages = this.state.beverages

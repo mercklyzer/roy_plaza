@@ -13,6 +13,7 @@
     transition: 0.3s opacity;
 }
 
+/* for mobile display */
 .sidebarPanel{
     background-color: #ffb600;
     padding: 16px;
@@ -27,4 +28,52 @@
 .sidebarPanel.show{
     left: 0;
     transition: all 0.3s;
+}
+
+@media screen and (min-width: 768px){
+    .sidebarPanel{
+        max-width: 300px;
+        width: 300px;
+    }
+}
+
+
+/* for pc display */
+.sidebarPanel1{
+    transition: all 0.3s;
+}
+
+.sidebarPanel1, .sidebarPanel2, .sidebarPanel3{
+    background-color: #ffb600;
+    max-width:  250px;
+    height: 100%;
+    overflow: visible;
+    position:  relative;
+    left: -100%;
+}
+
+.sidebarPanel1.show{
+    left: 0;
+    transition: all 0.3s;
+}
+
+.sidebarPanel2, .sidebarPanel3{
+    top: 0;
+    left: 250px;
+    width: 250px;
+    display: none;
+    position: absolute;
+}
+
+.sidebarPanel2.show, .sidebarPanel3.show{
+    display: block;
+    /* border: 2px solid red; */
+    height: 100%;
+    z-index: 1000;
+}
+
+@media screen and (min-width: 1024px){
+    .sidebarBackground{
+        height: calc(100% - 72px);
+    }
 }

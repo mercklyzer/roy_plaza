@@ -4,7 +4,6 @@
 }
 
 .ul > li{
-    margin-bottom: 4px; 
     width: 100%;
 }
 
@@ -14,11 +13,13 @@
     width: 100%;
     text-align: center;
     padding: 10px;
+    cursor: pointer;
 }
 
 .span:hover, .span:active{
     background-color:rgb(199, 138, 48);
-  }
+}
+
 @media screen and (min-width:546px){
     .background{
         top: 138px;
@@ -29,4 +30,9 @@
     .background{
         top: 72px;
     }
+}
+
+/* for PC version */
+@media screen and (min-width: 1024px){
+
 }
