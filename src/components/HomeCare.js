@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import styles from './sidebar.module.css'
+import {Link} from 'react-router-dom'
+
 
 
 let homeCare = [
@@ -91,31 +93,76 @@ class HomeCare extends Component {
                 {homeCare.map((element) => {
                     if(element === 'CLEANERS'){
                         innerItems = cleaners.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                                <React.Fragment key={element}>
+                                    <li> 
+                                        <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                            <span className={styles.span} onClick={this.clickHandler}>
+                                                {element}
+                                            </span>
+                                        </Link>
+                                    </li>
+                                </React.Fragment>)
                         })                        
                     }
 
                     else if(element === 'DETERGENTS'){
                         innerItems = detergents.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
 
                     else if(element === 'PAPER & PACKAGING'){
                         innerItems = paperAndPackaging.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
                     
                     else if(element === 'PET CARE'){
                         innerItems = petCare.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
 
                     else if(element === 'TOOLS & GEARS'){
                         innerItems = toolsAndGears.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
 

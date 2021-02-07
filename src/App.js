@@ -1,27 +1,18 @@
 import './App.css';
 import Navbar from './components/Navbar.js'
+import Content from './components/Content.js'
 import Footer from './components/Footer.js'
-import SidebarData from './components/SidebarData';
-
+import {BrowserRouter as Router} from 'react-router-dom'
 function App() {
-  const divStyle = {
-    color: 'black',
-    height: '500px',
-    marginTop: '72px',
-    border: '2px solid blue',
-    fontSize: '60px'
-  }
 
   return (
-    <div className="App">
-      <Navbar />
-
-      <div style={divStyle}>
-          Some content
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Content />
+        <Footer />
       </div>
-
-      <Footer />
-    </div>
+    </Router>
   );
 }
 

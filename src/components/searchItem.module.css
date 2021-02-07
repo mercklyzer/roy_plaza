@@ -1,0 +1,41 @@
+.parentStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px 20px;
+    margin: 0 auto;
+    width: '648px',
+}
+
+@media screen and (max-width: 1540px){
+    .divStyle{
+        max-width: 1230px;
+    }
+}
+
+@media screen and (max-width: 1239px){
+    .divStyle{
+        max-width: 930px;
+    }
+}
+
+@media screen and (max-width: 945px){
+    .divStyle{
+        max-width: 630px;
+    }
+}
+
+@media screen and (max-width: 645px){
+    .divStyle{
+        max-width: 330px;
+    }
+}

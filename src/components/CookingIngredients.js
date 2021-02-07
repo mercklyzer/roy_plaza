@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import styles from './sidebar.module.css'
+import {Link} from 'react-router-dom'
+
 
 
 let cookingIngredients= [
@@ -139,43 +141,107 @@ class CookingIngredients extends Component {
                 {cookingIngredients.map((element) => {
                     if(element === 'BAKING INGREDIENTS'){
                         innerItems = bakingIngredients.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                           
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
 
                     else if(element === 'CANNED FOODS'){
                         innerItems = cannedFoods.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                                <React.Fragment key={element}>
+                                    <li> 
+                                        <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                            <span className={styles.span} onClick={this.clickHandler}>
+                                                {element}
+                                            </span>
+                                        </Link>
+                                    </li>
+                                </React.Fragment>)
                         })                        
                     }
 
                     else if(element === 'CONDIMENTS'){
                         innerItems = condiments.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
                     
                     else if(element === 'PASTA & GRAINS'){
                         innerItems = pastaAndGrains.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
 
                     else if(element === 'SAUCES'){
                         innerItems = sauces.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
 
                     else if(element === 'SPICES & HERBS'){
                         innerItems = spicesAndHerbs.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
 
                     else if(element === 'SPREADS'){
                         innerItems = spreads.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
 
@@ -184,6 +250,7 @@ class CookingIngredients extends Component {
                         <li onMouseOver={this.hoverHandlerCaller} onMouseOut={this.hoverRemoveHandlerCaller}>
                             <span className={styles.span} onClick={this.clickHandlerCaller}>{element}</span>
                             {window.innerWidth >= 1024? 
+                            
                                 <div className='sidebarPanel3'>
                                     <ul className={`${styles.ul} none`}>
                                         {innerItems}
@@ -191,8 +258,8 @@ class CookingIngredients extends Component {
                                 </div>
                                 :
                                 <ul className={`${styles.ul} none`}>
-                                        {innerItems}
-                                    </ul>
+                                    {innerItems}
+                                </ul>
                             }
                         </li>
                     </React.Fragment>)

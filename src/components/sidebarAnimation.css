@@ -3,12 +3,13 @@
     position: fixed;
     width: 100%;
     height: calc(100% - 119px);
-    z-index: 200;
     opacity: 0;
+    visibility: hidden;
     transition: 0.3s opacity;
 }
 
 .sidebarBackground.show{
+    visibility: visible;
     opacity: 1;
     transition: 0.3s opacity;
 }
@@ -67,7 +68,6 @@
 
 .sidebarPanel2.show, .sidebarPanel3.show{
     display: block;
-    /* border: 2px solid red; */
     height: 100%;
     z-index: 1000;
 }

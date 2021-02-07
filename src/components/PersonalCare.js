@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import styles from './sidebar.module.css'
+import {Link} from 'react-router-dom'
+
 
 let personalCare = [
     'BODY CARE',
@@ -110,25 +112,61 @@ class PersonalCare extends Component {
                 {personalCare.map((element) => {
                     if(element === 'BODY CARE'){
                         innerItems = bodyCare.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
 
                     else if(element === 'COSMETICS'){
                         innerItems = cosmetics.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
 
                     else if(element === 'HAIR CARE'){
                         innerItems = hairCare.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
                     
                     else if(element === 'HEALTH CARE'){
                         innerItems = healthCare.map((element) => {
-                            return <React.Fragment key={element}><li><span className={styles.span}>{element}</span></li></React.Fragment>
+                            return (
+                            <React.Fragment key={element}>
+                                <li> 
+                                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                                        <span className={styles.span} onClick={this.clickHandler}>
+                                            {element}
+                                        </span>
+                                    </Link>
+                                </li>
+                            </React.Fragment>)
                         })                        
                     }
 

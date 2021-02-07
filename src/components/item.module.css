@@ -1,0 +1,72 @@
+.container{
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    max-width: 380px;
+    max-height: 600px;
+    border-radius: 10px;
+    margin: 0px 20px 20px 0px;
+}
+
+.itemImage{
+    width: 100%;
+}
+
+.itemInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+}
+
+.productName{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 24px;
+    color: blue;
+}
+
+.sizeButton{
+    border: none;
+    background: #e7e7e7;
+    padding: 10px;
+    margin: 0px 2px;  
+    outline: none;   
+    color: black;   
+}
+
+.sizeButton.active{
+    background-color: #449bff;
+    color: white;
+    border: 1px solid blue;
+}
+
+.itemButtons{
+    background-color: #f7f7f7;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 40px;
+    padding: 10px 30px;
+}
+
+.inputNumber{
+    width: 60px;
+    border: none;
+    text-align: right;
+    font-size: 20px;
+}
+
+.quantityButton{
+    border: none;
+}
+
+.quantityButtonImage{
+    width: 30px;
+    height: auto;
+}

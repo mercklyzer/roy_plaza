@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styles from './sidebar.module.css'
+import {Link} from 'react-router-dom'
 
 
 class Beverages extends Component {
@@ -42,7 +43,17 @@ class Beverages extends Component {
         let html = ''
         return ( <>
         {beverages.map((element) => {
-            return (<React.Fragment key={element}><li><span className={styles.span} onClick={this.clickHandler}>{element}</span></li></React.Fragment>)
+            return (
+            <React.Fragment key={element}>
+                <li>
+                    <Link to={`/search/${element}`} style={{textDecoration: 'none', color: 'black'}}>
+                        <span className={styles.span} onClick={this.clickHandler}>
+                                {element}
+                        </span>
+                    </Link>
+                </li>
+                
+            </React.Fragment>)
         })}
         </>)
         
