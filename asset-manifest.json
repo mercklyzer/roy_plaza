@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/roy_plaza/static/css/main.d7be09a5.chunk.css",
-    "main.js": "/roy_plaza/static/js/main.d54ca949.chunk.js",
-    "main.js.map": "/roy_plaza/static/js/main.d54ca949.chunk.js.map",
-    "runtime-main.js": "/roy_plaza/static/js/runtime-main.875faa93.js",
-    "runtime-main.js.map": "/roy_plaza/static/js/runtime-main.875faa93.js.map",
-    "static/js/2.55e194b1.chunk.js": "/roy_plaza/static/js/2.55e194b1.chunk.js",
-    "static/js/2.55e194b1.chunk.js.map": "/roy_plaza/static/js/2.55e194b1.chunk.js.map",
-    "static/js/3.af9aa699.chunk.js": "/roy_plaza/static/js/3.af9aa699.chunk.js",
-    "static/js/3.af9aa699.chunk.js.map": "/roy_plaza/static/js/3.af9aa699.chunk.js.map",
+    "main.css": "/roy_plaza/static/css/main.090cfff4.chunk.css",
+    "main.js": "/roy_plaza/static/js/main.bf558731.chunk.js",
+    "main.js.map": "/roy_plaza/static/js/main.bf558731.chunk.js.map",
+    "runtime-main.js": "/roy_plaza/static/js/runtime-main.40395397.js",
+    "runtime-main.js.map": "/roy_plaza/static/js/runtime-main.40395397.js.map",
+    "static/js/2.d46cb54c.chunk.js": "/roy_plaza/static/js/2.d46cb54c.chunk.js",
+    "static/js/2.d46cb54c.chunk.js.map": "/roy_plaza/static/js/2.d46cb54c.chunk.js.map",
+    "static/js/3.01fffc5e.chunk.js": "/roy_plaza/static/js/3.01fffc5e.chunk.js",
+    "static/js/3.01fffc5e.chunk.js.map": "/roy_plaza/static/js/3.01fffc5e.chunk.js.map",
     "index.html": "/roy_plaza/index.html",
-    "static/css/main.d7be09a5.chunk.css.map": "/roy_plaza/static/css/main.d7be09a5.chunk.css.map",
-    "static/js/2.55e194b1.chunk.js.LICENSE.txt": "/roy_plaza/static/js/2.55e194b1.chunk.js.LICENSE.txt",
+    "static/css/main.090cfff4.chunk.css.map": "/roy_plaza/static/css/main.090cfff4.chunk.css.map",
+    "static/js/2.d46cb54c.chunk.js.LICENSE.txt": "/roy_plaza/static/js/2.d46cb54c.chunk.js.LICENSE.txt",
     "static/media/bell_icon.d3a5b27d.svg": "/roy_plaza/static/media/bell_icon.d3a5b27d.svg",
+    "static/media/default-product-image.eb4eee9b.svg": "/roy_plaza/static/media/default-product-image.eb4eee9b.svg",
     "static/media/facebook_link_white.b3eca1d4.svg": "/roy_plaza/static/media/facebook_link_white.b3eca1d4.svg",
     "static/media/instagram_link_white.b52127f6.svg": "/roy_plaza/static/media/instagram_link_white.b52127f6.svg",
     "static/media/roy-plaza-store-bakebites-bakeshop-white.c997e051.svg": "/roy_plaza/static/media/roy-plaza-store-bakebites-bakeshop-white.c997e051.svg",
+    "static/media/roy-plaza-store-online-minus-icon.492abad1.svg": "/roy_plaza/static/media/roy-plaza-store-online-minus-icon.492abad1.svg",
+    "static/media/roy-plaza-store-online-plus-icon.e624d6f3.svg": "/roy_plaza/static/media/roy-plaza-store-online-plus-icon.e624d6f3.svg",
     "static/media/roy-plaza-store-powered-by.df49a82d.svg": "/roy_plaza/static/media/roy-plaza-store-powered-by.df49a82d.svg",
     "static/media/roy-plaza-store-roy-plaza-logo.1c4b7551.svg": "/roy_plaza/static/media/roy-plaza-store-roy-plaza-logo.1c4b7551.svg",
     "static/media/roy-plaza-store-roys-bistro-white-logo.9448b08b.svg": "/roy_plaza/static/media/roy-plaza-store-roys-bistro-white-logo.9448b08b.svg",
@@ -27,9 +30,9 @@
     "static/media/youtube_link_white.1381aa4f.svg": "/roy_plaza/static/media/youtube_link_white.1381aa4f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.875faa93.js",
-    "static/js/2.55e194b1.chunk.js",
-    "static/css/main.d7be09a5.chunk.css",
-    "static/js/main.d54ca949.chunk.js"
+    "static/js/runtime-main.40395397.js",
+    "static/js/2.d46cb54c.chunk.js",
+    "static/css/main.090cfff4.chunk.css",
+    "static/js/main.bf558731.chunk.js"
   ]
 }
